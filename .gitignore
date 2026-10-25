@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Third-party repos (clone per README)
+vendor/
+
+# Downloaded weights / trained models
+models/*.pt
+models/*.joblib
+
+# Runtime output
+cache/
+logs/
+
+# Real patient video from the VSViG dataset (not redistributable)
+videos/Sz2PG*

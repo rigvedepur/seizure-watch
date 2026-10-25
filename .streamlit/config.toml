@@ -1,0 +1,6 @@
+[server]
+headless = true
+maxUploadSize = 2000  # MB, so full-length videos can be uploaded
+
+[browser]
+gatherUsageStats = false
